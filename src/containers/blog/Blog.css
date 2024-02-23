@@ -1,0 +1,21 @@
+.blog{
+    font-size: 1.5rem;
+
+    margin: 1rem 0;
+}
+
+div{
+    width: 100%;
+}
+
+@media screen and (max-width: 769px ){
+    .blog{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 426px ){
+    .blog{
+        font-size: 0.8rem;
+    }
+}

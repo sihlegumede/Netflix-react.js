@@ -1,0 +1,41 @@
+.questions_heading{
+    text-align: center;
+
+    margin-top: 4rem;
+    padding: 0 7rem 0 7rem ;
+
+}
+
+.offcanvas_accordion{
+    width: 100%;
+
+    text-align: left;
+}
+.accordion_accordion{
+    width: 100%;
+    
+    padding: 0;
+    margin: 0.5rem;
+}
+#panel1-header,
+#panel2-header,
+#panel3-header,
+#panel4-header, 
+#panel5-header,
+#panel6-header,
+#panel7-header,
+#panel8-header{
+    background-color: rgb(23, 23, 23);    
+    padding: 1rem;
+}
+.accordion_header{
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+.accordion_details{
+    background-color: rgb(23, 23, 23);
+}
+.accordion_body{
+    background-color: rgb(23, 23, 23);
+    color: white;
+}

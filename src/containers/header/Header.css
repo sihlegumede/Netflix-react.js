@@ -1,0 +1,23 @@
+.Header_header{
+    font-size: 3rem;
+    font-weight: bold;
+
+    margin: 1rem 0;
+}
+
+div{
+    background-color: transparent;
+    width: 100%;
+}
+
+@media screen and (max-width: 769px ){
+    .Header_header{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px ){
+    .Header_header{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0 5rem;
+
+}
+
+.footer p{
+    margin: 2rem 0 ;
+
+    color: gray;
+}
+.footer_links{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto)) ;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer_links a{
+    text-decoration: none;
+
+    color: gray;
+
+    font-size: 0.8rem;
+}
+
+.footer_links a:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,126 @@
+.navbar{
+display: flex;
+justify-content: space-between;
+justify-items: center;
+flex-wrap: wrap;
+
+max-width: 85%;
+
+margin: 0 5rem;
+
+background: transparent;
+}
+
+.netflix_logo{
+max-width: 13rem;
+max-height: 10rem;
+
+margin: 2rem;
+
+background: transparent;
+}
+
+.netflix_logo img{
+max-width: 100%;
+max-height: 100%;
+
+background: transparent;
+
+position: relative;
+}
+
+.sign_in{
+width: 7rem;
+height: 2.2rem;
+
+margin: 2rem;
+
+background: none;
+}
+
+.sign_in button {
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    
+
+    font-size: 0.8rem;
+
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: red;
+    color: #fff;
+    font-weight:600;
+
+    cursor: pointer;
+}
+
+/* modal */
+
+.modal{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.modal_header{
+    color: #fff;
+    background-color: black;
+}
+.modal_body{
+    background-color: black;
+}
+
+.modal_forgot-password{
+    color: #fff;
+    text-decoration: none;
+}
+
+.modal_forgot-password:hover{
+    text-decoration: underline;
+}
+
+.modal_new-to-netflix{
+    text-align: left;
+    margin: 1rem 0;
+    padding: 0;
+
+    color: gray;
+
+    font-size: 1rem;
+}
+
+.modal_new-to-netflix a{
+    text-decoration: none;
+    color: #fff;;
+}
+
+.modal_new-to-netflix a:hover{
+    text-decoration: underline;
+}
+
+.modal_this-page{
+    color: gray;
+
+    font-size: 0.6rem;
+
+    text-align: left;
+    margin: 1rem 0;
+    padding: 0 0 5rem 0;
+}
+
+@media screen and (max-width: 608px ) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sign_in{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 376px ) {
+    .navbar{
+      width: 40%;
+    }
+}
